@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Live Feed</title>
+    <style>
+        #version {
+            font-size: 0.8em;
+            color: lightgrey;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        #error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Webcam Live Feed</h1>
+    <video id="webcam" autoplay playsinline width="640" height="480"></video>
+    <div id="error-message"></div>
+    <div id="version">Version 1.05</div>
+    <script src="https://rawcdn.githack.com/jfdurocher/html-webcam/main/webcam.js"></script>
+</body>
+</html>
